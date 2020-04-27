@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Comfortaa|Indie+Flower|Josefin+Sans|Manrope|Montserrat|Roboto|Shadows+Into+Light|Spartan|Trade+Winds|Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  padding: 0.75rem 0;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-centre {
+  text-align: center;
+}
+
+.text-primary {
+  color: #ff4040;
+}
+
+.l-heading {
+  font-size: 4rem;
+  font-family: 'Ubuntu' , sans-serif;
+  margin-bottom: .75rem;
+  line-height: 1.1;
+} 
+
+.m-heading {
+  font-size: 2rem;
+  font-family: 'Ubuntu' , sans-serif;
+  margin-bottom: .75rem;
+  line-height: 1.1;
+}
+
+.bg-primary {
+  background: #ff4040;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.lead {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #ff4040;
+  color: #fff;
+  padding: .5rem 2rem;
+  border-radius: 7px;
+  border: none;
+}
+
+.btn:hover {
+  background: #ff2727;
+}
+
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+
+.py-1 {padding: 1.5rem 0;}
+.py-2 {padding: 2rem 0;}
+.py-3 {padding: 3rem 0;}
+
+.p-1 {padding: 1.5rem;}
+.p-2 {padding: 2rem;}
+.p-3 {padding: 3rem;}
+
+.list {
+  margin: 0.5rem 0;
+  list-style: none;
+}
+
+.list li {
+  padding: .5rem 0;
+  border-bottom: 1px #444 dotted;
+}
+
+.list li:last-child {
+  border-bottom: none;
+}
+
+.btn-submit:hover {
+  background: #444;
+}
+
+
+/* Navbar */
+#navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background: #333;
+  color: #fff;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
+}
+
+#navbar .nav-head {
+  font-weight: bold;
+  font-family: 'Ubuntu' , sans-serif;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+#navbar ul li a {
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+  color: #fff;
+}
+
+#navbar ul li a:hover {
+  background: #ff4040;
+  border-radius: 0.40rem;
+}
+
+
+/* Showcase */
+#showcase {
+  background: #333 url('../img/macbook-pro-beside-papers-669619.jpg') no-repeat center center/cover;
+  height:100vh;
+  color: #fff;
+}
+
+#showcase .showcase-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 2rem;
+  /* overlay */
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .5);
+} 
+
+/* What */
+#what .items {
+  display: flex;
+  padding: 1rem;
+}
+
+#what .item {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+
+#what .fas {
+  background: #ff4040;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: .75rem;
+}
+
+/* Who */
+#who {
+  display: flex;
+}
+
+#who div {
+  flex: 1;
+}
+
+#who .who-img {
+  background: url('../img/photo-of-people-doing-handshakes-3183197.jpg') no-repeat center center/cover;
+}
+
+/* Clients */
+#clients .items {
+  display: flex;
+}
+
+#clients img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+/* Contact */
+#contact {
+  display: flex;
+}
+
+#contact .map, #contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: .75rem 0;
+}
+
+#contact .contact-form label {
+  display: block;
+  padding-bottom: .25rem;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  border: none;
+  padding: .5rem;
+  border-radius: 5px;
+}

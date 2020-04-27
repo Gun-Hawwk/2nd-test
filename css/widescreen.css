@@ -1,0 +1,21 @@
+#what .items {
+  justify-content: space-around;
+}
+
+/* align icons to left */
+#what .items .item {
+  display: flex;
+  text-align: left;
+}
+
+/*  */
+#what .items .item i {
+  align-self: center;
+  margin-right: 1.3rem;
+  margin-bottom: 0;
+}
+
+#contact .map {
+  flex: 2;
+}
+

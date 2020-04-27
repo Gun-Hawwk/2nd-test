@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/1368086672.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">
+  <title>EdgeLedger | Financial & Investment</title>
+</head>
+<body id="home">
+  <nav id="navbar">
+    <h1 class="nav-head"><span class="text-primary">
+      <i class="fas fa-book-open"></i> Edge</span>Ledger</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#what">What</a></li>
+      <li><a href="#who">Who</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- Header:showcase -->
+  <header id="showcase">
+    <div class="showcase-content">
+      <h1 class="l-heading">The Sky Is The Limit</h1>
+      <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore libero impedit mollitia nulla, illo assumenda!</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </header>
+
+  <!-- section: what we do -->
+  <section id="what" class="bg-light py-1">
+    <div class="container">
+      <h1 class="m-heading text-centre"><span class="text-primary">What</span> We Do</h1>
+      <div class="items">
+        <div class="item">
+          <i class="fas fa-university fa-2x"></i>
+          <div>
+            <h3>Investment Banking</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Corporis, nihil.</p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="fas fa-book-reader fa-2x"></i>
+          <div>
+            <h3>Portfolio Management</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, dolore.</p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="fas fa-pencil-alt fa-2x"></i>
+          <div>
+            <h3>Tax & Custodial</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, illum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Who We Are -->
+  <section id="who">
+    <div class="who-img"></div>
+    <div class="who-text bg-dark p-2">
+      <h1 class="m-heading"><span class="text-primary">Who</span> We Are</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae nobis odit perspiciatis commodi. Veniam libero ratione tempore, maiores ad architecto ipsum. Eligendi iste laborum molestiae ea numquam adipisci qui natus.</p>
+      <h3>Our Team</h3>
+      <ul class="list">
+        <li>Ali Hassan: CEO</li>
+        <li>Anns Shahbaz: WM</li>
+        <li>Qasim Nawaz: WC</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Section: Clients -->
+  <section id="clients" class="py-1">
+    <div class="container">
+      <h3 class="m-heading text-centre"><spna class="text-primary">Our</spna> Clients</h3>
+      <div class="items py-1">
+        <div><img src="./img/logos/logo1.png" alt="clients"></div>
+        <div><img src="./img/logos/logo2.png" alt="clients"></div>
+        <div><img src="./img/logos/logo3.png" alt="clients"></div>
+        <div><img src="./img/logos/logo4.png" alt="clients"></div>
+        <div><img src="./img/logos/logo5.png" alt="clients"></div>
+      </div>  
+    </div>
+  </section>
+
+  <!-- Section: Contact -->
+  <section id="contact">
+    <div class="contact-form bg-primary p-2">
+      <h3 class="m-heading">Contact Us</h3>
+      <p>Please use the form below to contact us</p>
+      <form action="process.php" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter Email">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+        </div>
+        <input type="submit" value="send" class="btn btn-dark btn-submit">
+      </form>
+    </div>
+    <div class="map"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="main-footer" class="bg-dark text-centre py-1">
+    <div class="container">
+      <p>Copyright &copy; 2020, EdgeLedger, All Rights Reserved </p>
+    </div>
+  </footer>
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+
+  <!-- LOcal JS File -->
+  <script src="js/main.js"></script>
+
+  <!--Google Maps  -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWENdBQBwVyDGuxxO49cGndICfFA6FQGA&callback=initMap"
+    async defer></script>
+</body>
+</html>
